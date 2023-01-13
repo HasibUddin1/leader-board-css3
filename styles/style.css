@@ -37,6 +37,7 @@ hr{
 }
 .container{
     background-color: #ffffff;
+    border-radius: 5px;
     width: 870px;
     padding: 30px;
     margin-top: 36px;
@@ -49,6 +50,11 @@ hr{
 }
 
 /* blog section */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 26px;
+}
 .blog{
     display: flex;
     align-items: center;
@@ -67,12 +73,12 @@ hr{
 .blog-descrition a{
     text-decoration: none;
     font-size: 16px;
+    color: #562EFF;
 }
 .blog-descrition-header{
     font-size: 20px;
+    margin-bottom: 10px;
 }
 .blog-info{
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+    margin-left: 16px;
 }
