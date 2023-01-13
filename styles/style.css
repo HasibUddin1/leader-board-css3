@@ -47,3 +47,32 @@ hr{
     margin-bottom: 40px;
     margin-top: 3px;
 }
+
+/* blog section */
+.blog{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.blog-header{
+    font-size: 24px;
+    color: #562EFF;
+    margin-bottom: 40px;
+    margin-top: 33px;
+}
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-descrition a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.blog-descrition-header{
+    font-size: 20px;
+}
+.blog-info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
