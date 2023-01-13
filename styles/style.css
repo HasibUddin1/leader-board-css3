@@ -1,3 +1,13 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f1ff;
+    display: flex;
+    justify-content: center;
+}
 /* players section */
 .players{
     display: grid;
@@ -11,4 +21,13 @@
     display: flex;
     align-items: center;
     gap: 16px;
+}
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+}
+.player-header{
+    font-size: 24px;
+    color: #562EFF;
 }
