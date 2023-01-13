@@ -82,3 +82,18 @@ hr{
 .blog-info{
     margin-left: 16px;
 }
+/* Latest Courses Section */
+.course-info{
+    display: flex;
+    align-items: center;
+}
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
